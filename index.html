@@ -33,7 +33,7 @@
         <p class="ml-1 font-medium"> Austrailia's #1 Automotive Ecosystem</p>
     </div>
     <div class="bg-[#F5FBFE]">
-        <div class="flex items-end justify-between py-2 mx-auto w-10/12">
+        <div class="hidden lg:flex items-end justify-between w-full px-2 xl:px-0 py-2 mx-auto xl:w-10/12">
             <img class="" src="images/wheelz.png" alt="wheelz">
             <p>Sell Your Car</p>
             <p>Buy Your Car</p>
@@ -43,6 +43,10 @@
             <p>About</p>
             <button class="flex -mb-1 bg-[#00A5e7] text-lg py-1 px-2 rounded-md items-center text-white"><img class="mr-1" src="images/tele.png" /> 13 wheelz</button>
         </div>  
+        <div class="mt-5 lg:hidden flex justify-between px-5">
+            <img class="h-10" src="images/wheelz.png" alt="wheelz">
+            <img class="h-10" src="images/menu.png" alt="burger icon">
+        </div>
     </div>
     <!-- Nav Region End -->
 
@@ -79,7 +83,7 @@
                 </div>
             </div>
             <div class="w-full flex justify-end">
-                <img class="rounded-l-full" src="images/banner.png" alt="">
+                <img class="rounded-l-full w-auto object-contain lg:w-[100%]" src="images/banner.png" alt="">
             </div>
         </div>
       
@@ -90,84 +94,96 @@
             <div class="flex flex-col items-center bg-stone-50 rounded-3xl">
                 <div class="relative w-full object-fill overflow-hidden">
                     <img class="w-full" src="images/car.png" alt="">
-                    <div class="absolute top-6 p-2 w-full -left-20 -rotate-45 bg-[#00A5e7] text-white">
-                        <span class="ml-16 2xl:ml-20 text-sm 2xl:text-base">SOLD IN 24HRS</span>
+                    <div class="absolute top-8 lg:top-12 xl:top-6 p-2 w-full -left-16 lg:-left-20 -rotate-45 bg-[#00A5e7] text-white">
+                        <span class="ml-14 text-xs text-nowrap lg:ml-20 2xl:ml-20 text-xs lg:text-sm 2xl:text-base">SOLD IN 24HRS</span>
                     </div>
                 </div>
                 <div class="flex justify-between w-11/12 items-center">
-                    <div class="">
-                        <p class="font-medium">Holly</p>
-                        <p class="flex items-center"><img class="mr-2 h-5 w-5" src="images/Isolation_Mode.png" alt="" />Elwood 3184</p>
+                    <div class="mr-3">
+                        <p class="font-medium text-sm lg:text-base mb-2 lg:mb-0">Holly</p>
+                        <p class="flex text-xs lg:text-sm xl:text-base items-center"><img class="mr-2 h-4 w-4" src="images/Isolation_Mode.png" alt="" />Elwood 3184</p>
                     </div>
-                    <p class="flex">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
+                    <p class="flex items-center xl:hidden">
+                        <img src="images/Star 8.png" alt=""> 5.0
+                    </p>
+                    <p class="hidden xl:flex">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
                     </p>
                 </div>
             </div>
             <div class="flex flex-col items-center bg-stone-50 rounded-3xl">
                 <div class="relative w-full object-fill overflow-hidden">
                     <img class="w-full" src="images/car2.png" alt="">
-                    <div class="absolute top-6 p-2 w-full -left-20 -rotate-45 bg-[#00A5e7] text-white">
-                        <span class="ml-16 2xl:ml-20 text-sm 2xl:text-base">SOLD IN 54MINS</span>
+                    <div class="absolute top-8 lg:top-12 xl:top-6 p-2 w-full -left-16 lg:-left-20 -rotate-45 bg-[#00A5e7] text-white">
+                        <span class="ml-14 text-xs text-nowrap lg:ml-20 2xl:ml-20 text-sm 2xl:text-base">SOLD IN 54MINS</span>
                     </div>
                 </div>
                 <div class="flex justify-between w-11/12 items-center">
-                    <div class="">
-                        <p class="font-medium">Alex</p>
-                        <p class="flex items-center"><img class="mr-2 h-5 w-5" src="images/Isolation_Mode.png" alt="" />Balmain 2041</p>
+                    <div class="mr-3">
+                        <p class="font-medium text-sm lg:text-base mb-2 lg:mb-0">Alex</p>
+                        <p class="flex text-xs lg:text-sm xl:text-base items-center"><img class="mr-2 h-4 w-4" src="images/Isolation_Mode.png" alt="" />Balmain 2041</p>
                     </div>
-                    <p class="flex">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
+                    <p class="flex items-center xl:hidden">
+                        <img src="images/Star 8.png" alt=""> 5.0
+                    </p>
+                    <p class="hidden xl:flex">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
                     </p>
                 </div>
             </div>
             <div class="flex flex-col items-center bg-stone-50 rounded-3xl">
                 <div class="relative w-full object-fill overflow-hidden">
                     <img class="w-full" src="images/car3.png" alt="">
-                    <div class="absolute top-6 p-2 w-full -left-20 -rotate-45 bg-[#00A5e7] text-white">
-                        <span class="ml-16 2xl:ml-20 text-sm 2xl:text-base">SOLD IN 48HRS</span>
+                    <div class="absolute top-8 lg:top-12 xl:top-6 p-2 w-full -left-16 lg:-left-20 -rotate-45 bg-[#00A5e7] text-white">
+                        <span class="ml-14 text-xs text-nowrap lg:ml-20 2xl:ml-20 text-sm 2xl:text-base">SOLD IN 48HRS</span>
                     </div>
                 </div>
                 <div class="flex justify-between w-11/12 items-center">
-                    <div class="">
-                        <p class="font-medium">Ravi</p>
-                        <p class="flex items-center"><img class="mr-2 h-5 w-5" src="images/Isolation_Mode.png" alt="" />Broadbeach 4218</p>
+                    <div class="mr-3">
+                        <p class="font-medium text-sm lg:text-base mb-2 lg:mb-0">Ravi</p>
+                        <p class="flex text-xs lg:text-sm xl:text-base items-center"><img class="mr-2 h-4 w-4" src="images/Isolation_Mode.png" alt="" />Broadbeach 4218</p>
                     </div>
-                    <p class="flex">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
+                    <p class="flex items-center xl:hidden">
+                        <img src="images/Star 8.png" alt=""> 5.0
+                    </p>
+                    <p class="hidden xl:flex">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
                     </p>
                 </div>
             </div>
             <div class="flex flex-col items-center bg-stone-50 rounded-3xl">
                 <div class="relative w-full object-fill overflow-hidden">
                     <img class="w-full" src="images/car4.png" alt="">
-                    <div class="absolute top-6 p-2 w-full -left-20 -rotate-45 bg-[#00A5e7] text-white">
-                        <span class="ml-16 2xl:ml-20 text-sm 2xl:text-base">SOLD IN 72MINS</span>
+                    <div class="absolute top-8 lg:top-12 xl:top-6 p-2 w-full -left-16 lg:-left-20 -rotate-45 bg-[#00A5e7] text-white">
+                        <span class="ml-14 text-xs text-nowrap lg:ml-20 2xl:ml-20 text-sm 2xl:text-base">SOLD IN 72MINS</span>
                     </div>
                 </div>
                 <div class="flex justify-between w-11/12 items-center">
-                    <div class="">
-                        <p class="font-medium">Luke</p>
-                        <p class="flex items-center"><img class="mr-2 h-5 w-5" src="images/Isolation_Mode.png" alt="" />Welshpool 6106</p>
+                    <div class="mr-3">
+                        <p class="font-medium text-sm lg:text-base mb-2 lg:mb-0">Luke</p>
+                        <p class="flex text-xs lg:text-sm xl:text-base items-center"><img class="mr-2 h-4 w-4" src="images/Isolation_Mode.png" alt="" />Welshpool 6106</p>
                     </div>
-                    <p class="flex">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
-                        <img class="ml-1 h-5 w-5" src="images/Star 8.png" alt="">
+                    <p class="flex items-center xl:hidden">
+                        <img src="images/Star 8.png" alt=""> 5.0
+                    </p>
+                    <p class="hidden xl:flex">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
+                        <img class="ml-1 h-4 w-4" src="images/Star 8.png" alt="">
                     </p>
                 </div>
             </div>
